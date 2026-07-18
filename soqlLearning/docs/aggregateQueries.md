@@ -2,7 +2,7 @@
 
 ---
 
-## Method: `getTotalOppPerAcc()`
+## Method: [`getTotalOppPerAcc()`](../force-app/main/default/classes/queriesAggreRelationships.cls)
 
 ### Purpose
 

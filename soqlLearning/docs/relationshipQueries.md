@@ -6,6 +6,8 @@
 
 ### Understanding the Relationship
 
+## Method: [`getContactsForSpecificOpp()`](../force-app/main/default/classes/queriesAggreRelationships.cls)
+
 `Contact` and `Opportunity` are **not directly related** in Salesforce.
 
 They are connected through the standard junction object **OpportunityContactRole**.

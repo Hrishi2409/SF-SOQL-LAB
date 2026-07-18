@@ -31,4 +31,12 @@ public with sharing class queriesAggreRelationships {
         return contacts2;
     }
 
+    //Scenario 4
+    // List all Closed Won Opportunities along with their amounts.
+    public static List<Opportunity> getAllClosedWOnOpp(){
+        List<Opportunity> opps = [ Select Name, Amount From Opportunity Where StageName = 'Closed Won'];
+
+        return opps;
+    }
+
 }
